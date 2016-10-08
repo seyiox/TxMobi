@@ -1,0 +1,242 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "mytabpanel",
+        "designer|userClassName": "MyTabPanel",
+        "docked": null
+    },
+    "name": "MyTabPanel",
+    "designerId": "3ebee48e-df4d-4201-9852-832f99235536",
+    "viewControllerInstanceId": "00a3614c-0797-42cc-a53c-b9b1059df2ba",
+    "viewModelInstanceId": "a4273457-8898-4376-ae14-8c212d132f06",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "x-fa fa-info",
+                "layout": "vbox",
+                "scrollable": false,
+                "title": "Talks"
+            },
+            "name": "MyContainer",
+            "designerId": "9361cb38-56cd-4d63-869c-06887b46609c",
+            "cn": [
+                {
+                    "type": "Ext.SegmentedButton",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "defaults": [
+                            "{",
+                            "flex: 1",
+                            "}"
+                        ]
+                    },
+                    "name": "MySegmentedButton",
+                    "designerId": "ed1fd88b-42f4-4e97-9101-bc73cdc8612b",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconAlign": null,
+                                "iconCls": null,
+                                "text": "MyButton1"
+                            },
+                            "name": "MyButton1",
+                            "designerId": "3db1a3c3-1369-49d6-a926-4bb9965e2787"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "MyButton2"
+                            },
+                            "name": "MyButton2",
+                            "designerId": "c98503c3-26ec-4d7e-b432-69818efd2dc2"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "minHeight": 150
+                    },
+                    "name": "MyContainer5",
+                    "designerId": "562fb732-a4a7-4a2e-a122-42187ddd0bb8",
+                    "cn": [
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "name": "MyLabel",
+                            "designerId": "c323a8c2-b310-4945-ba89-17b5f508a8f2",
+                            "cn": [
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "tpl",
+                                        "implHandler": [
+                                            "<h2>{author}</h2>",
+                                            "<h4>{title}</h4>"
+                                        ]
+                                    },
+                                    "name": "tpl",
+                                    "designerId": "f43b13db-a388-4456-9534-7297312cd7e3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.dataview.List",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "onItemDisclosure": true,
+                        "store": "TalkStore"
+                    },
+                    "name": "MyList",
+                    "designerId": "7799837d-b5f1-44af-bb73-962f426dc73a",
+                    "cn": [
+                        {
+                            "type": "Ext.XTemplate",
+                            "reference": {
+                                "name": "itemTpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "itemTpl",
+                                "implHandler": [
+                                    "<div style=background:url({image})>",
+                                    "    <div>",
+                                    "        <h2>{author}</h2>",
+                                    "        <h4>{title}</h4>",
+                                    "    </div>",
+                                    "</div>"
+                                ]
+                            },
+                            "name": "itemTpl",
+                            "designerId": "2baffc75-3672-4ad3-91e1-35f0f0464955"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "x-fa fa-info",
+                "title": "Tab 2"
+            },
+            "name": "MyContainer1",
+            "designerId": "b8a8a358-5e35-40aa-bd7c-25500f6f34c4"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "x-fa fa-info",
+                "title": "Tab 3"
+            },
+            "name": "MyContainer2",
+            "designerId": "4b8218d3-de43-4e0b-ad4c-50fcd6609eb1"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "x-fa fa-info",
+                "title": "Tab 3"
+            },
+            "name": "MyContainer4",
+            "designerId": "50d4bd79-aa55-4aed-ae1e-14f0026b9299"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "x-fa fa-info",
+                "title": "Tab 3"
+            },
+            "name": "MyContainer3",
+            "designerId": "45b0fb0d-d9aa-4ca3-be87-95fa546e0bd8"
+        },
+        {
+            "type": "Ext.tab.Bar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "z-tabbar"
+                ],
+                "defaults": [
+                    "{iconAlign: 'top'}"
+                ],
+                "docked": "bottom"
+            },
+            "name": "MyTabBar",
+            "designerId": "0ab2147d-70e4-44e2-86f2-8f179ea876b9"
+        }
+    ]
+}

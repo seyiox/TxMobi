@@ -1,0 +1,109 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Talk"
+    },
+    "name": "MyModel",
+    "designerId": "f0cbd8dc-8a2d-4083-86d8-c3239459da9e",
+    "cn": [
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id"
+            },
+            "name": "field",
+            "designerId": "4e35980d-7816-4044-9f5a-cdc3b3f48102"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "author"
+            },
+            "name": "field1",
+            "designerId": "6247301c-e874-47cd-b711-2bac2a5746f1"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "title"
+            },
+            "name": "field2",
+            "designerId": "60bcca16-0b40-4309-984a-464378570618"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "image"
+            },
+            "name": "field3",
+            "designerId": "afb63a27-419f-4b34-864a-297e59ea902d"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "feature"
+            },
+            "name": "field4",
+            "designerId": "517f88a3-e986-4d30-8c24-4f752beec651"
+        },
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "/resources/talks.json"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "fa2e2be8-9e51-4925-bacb-9d40dd44e925",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "record": null,
+                        "rootProperty": "talks"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "a1dc5b17-753f-4200-907b-715b77bc1d2b"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "TalkStore",
+        "model": "Talk",
+        "storeId": "TalkStore"
+    },
+    "name": "MyJsonStore",
+    "designerId": "617411de-13ad-4aba-9b8a-4d66ef0d0bcd"
+}

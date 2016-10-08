@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mytabpanel",
+        "designer|userClassName": "MyTabPanelViewModel"
+    },
+    "designerId": "a4273457-8898-4376-ae14-8c212d132f06"
+}

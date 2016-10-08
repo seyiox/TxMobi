@@ -543,6 +543,14 @@ $include-ext-viewport-ios: dynamic(true);;
 $include-ext-viewport-viewport: dynamic(true);;
 $include-ext-viewport-wp: dynamic(true);;
 $include-ext-viewport-windowsphone: dynamic(true);;
+$include-txgmobi-model-talk: dynamic(true);;
+$include-txgmobi-store-talkstore: dynamic(true);;
+$include-txgmobi-view-mynavigationview: dynamic(true);;
+$include-txgmobi-view-mynavigationviewviewcontroller: dynamic(true);;
+$include-txgmobi-view-mynavigationviewviewmodel: dynamic(true);;
+$include-txgmobi-view-mytabpanel: dynamic(true);;
+$include-txgmobi-view-mytabpanelviewcontroller: dynamic(true);;
+$include-txgmobi-view-mytabpanelviewmodel: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */

@@ -6,7 +6,17 @@
     },
     "codeClass": null,
     "userConfig": {
-        "name": "TxGMobi"
+        "models": [
+            "Talk"
+        ],
+        "name": "TxGMobi",
+        "stores": [
+            "TalkStore"
+        ],
+        "views": [
+            "MyTabPanel",
+            "MyNavigationView"
+        ]
     },
     "name": "Application",
     "designerId": "application"

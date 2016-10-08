@@ -1,0 +1,14 @@
+{
+    "type": "jsonresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "json_ameprdp7",
+        "url": "/resources/talks.json"
+    },
+    "name": "json",
+    "designerId": "395907ae-6de6-434d-9079-1654ec92e7be"
+}

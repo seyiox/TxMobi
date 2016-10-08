@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mynavigationview",
+        "designer|userClassName": "MyNavigationViewViewModel"
+    },
+    "designerId": "366e8316-8342-4246-b056-07f6991996c5"
+}

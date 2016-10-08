@@ -1,0 +1,61 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mynavigationview",
+        "designer|userClassName": "MyNavigationView"
+    },
+    "name": "MyNavigationView",
+    "designerId": "14c98e5e-7a6d-4e64-a64c-63115b07c06f",
+    "viewControllerInstanceId": "d2deebc2-bf94-4e48-8ffb-6154d9f3ccc5",
+    "viewModelInstanceId": "366e8316-8342-4246-b056-07f6991996c5",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "mytabpanel",
+            "designerId": "f0be6b63-a92b-4f0e-98be-aea2b485f430",
+            "masterInstanceId": "3ebee48e-df4d-4201-9852-832f99235536"
+        },
+        {
+            "type": "Ext.navigation.Bar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "name": "MyNavigationBar",
+            "designerId": "7b974e12-b011-4375-b817-9ae09c7a35eb",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "align": "right",
+                        "designer|uiInterfaceName": "plain",
+                        "iconCls": "x-fa fa-search",
+                        "text": null,
+                        "ui": "plain"
+                    },
+                    "name": "MyButton",
+                    "designerId": "132317e2-2b5d-4a9e-8e06-fbf310a3fc11"
+                }
+            ]
+        }
+    ]
+}

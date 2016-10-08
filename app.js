@@ -20,5 +20,20 @@ Ext.Loader.setConfig({
 
 
 Ext.application({
-    name: 'TxGMobi'
+    models: [
+        'Talk'
+    ],
+    stores: [
+        'TalkStore'
+    ],
+    views: [
+        'MyTabPanel',
+        'MyNavigationView'
+    ],
+    name: 'TxGMobi',
+
+    launch: function() {
+        Ext.create('TxGMobi.view.MyTabPanel', {fullscreen: true});
+    }
+
 });
