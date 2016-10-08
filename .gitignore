@@ -1,1 +1,3 @@
 *.xds
+/resources/css/*
+/resources/scss/*
